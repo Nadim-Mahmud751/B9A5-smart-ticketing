@@ -108,3 +108,14 @@ order: 3;
     text-align: right;
     
 }
+
+input[type=number]::-webkit-inner-spin-button{
+    display: none;
+}
+
+main{
+    background-color: #212121;
+}
+ .railway{
+ font-family: 'railway';
+ }
