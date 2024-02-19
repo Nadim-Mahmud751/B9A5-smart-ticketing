@@ -1,31 +1,14 @@
-@font-face {
-    font-family: 'inter';
-    src: url(./fonts/Inter-VariableFont_slnt\,wght.ttf);
-}
-@font-face {
-    font-family: 'railway';
-    src: url(./fonts/Raleway-VariableFont_wght.ttf);
-}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 .max-container{
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 10px;
-    
-   
-}
-
-.railway{
-    font-family: 'railway';
-    
-}
-.inter{
-    font-family: 'inter';
-    
 }
 .t-btn{
     font-size: 15px;
@@ -33,7 +16,7 @@
     padding: 1.1em 2.7em;
     border-radius: 10px;
     border:1px solid rgba(0, 0, 0, 0);
-    background-color: #f7f8f8 !important;
+    background-color: #f7f8f8 ;
     width: 110px;
     
 }
@@ -60,15 +43,12 @@
     height: 56;
 
 }
-
-
 .addList{
     padding-bottom: 1rem;
     display: grid;
     grid-template-columns: repeat(12, minmax(0, 1fr));
     padding-top: 0.5rem/* 20px */;
     padding-bottom: 0.5rem/* 20px */;
-   
 }
 
 .addListText-1{
@@ -86,7 +66,7 @@ order: 1;
 .addListText-2{
     color: rgba(3, 7, 18, 0.60);
 
-order: 2;
+    order: 2;
     font-family: 'inter';
     font-size: 16px;
     font-style: normal;
@@ -108,7 +88,6 @@ order: 3;
     text-align: right;
     
 }
-
 input[type=number]::-webkit-inner-spin-button{
     display: none;
 }
